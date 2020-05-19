@@ -1,0 +1,28 @@
+.descTableRow {
+	font-size:16px;
+}
+
+.descTableRow td {
+	width:100px;
+	padding:10px;
+	border: 1px solid black;
+}
+
+.container {
+	background-color:pink;
+	height:100%;
+	position:absolute;
+	width:100%;
+}
+
+th {
+	border: 1px solid black;
+}
+
+td { 
+	border: 1px solid black;
+}
+
+.projectLinks a:hover {
+	color:green;
+}

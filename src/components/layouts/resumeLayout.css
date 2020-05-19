@@ -1,0 +1,53 @@
+.container {
+	background-color:pink;
+	color:black;]
+	height:100%
+}
+.degreeInfo {
+	margin-left:30px;
+}
+
+.downloadButton {
+margin-bottom:20px;
+}
+
+.pLine {
+	position:relative;
+	margin-bottom:-15px;
+}
+
+.resumeButtonDesc {
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+.listOfStuff {
+	margin-bottom:0px;
+}
+
+.listOfStuff ul {
+	margin-bottom:-14px;
+}
+
+.skillsTable {
+  margin-left: auto;
+  margin-right: auto;
+  width:95%;
+}
+
+.skillsTable2 {
+	display:none;
+}
+
+@media screen and (max-width: 560px) {
+	.skillsTable {
+	display:none;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.skillsTable2 {
+	display:block;
+	
+	}
+}

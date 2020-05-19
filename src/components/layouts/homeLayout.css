@@ -1,0 +1,117 @@
+
+.top-left {
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  color:white;
+  border-style: solid white 1px;
+  color: black;
+  background-color: pink;
+  border-radius: 25px;
+  padding: 20px;
+  font-size: 40px
+}
+
+img {
+	max-height:1000px;
+	width:100%;
+	display:block;
+	line-height:0;
+	vertical-align: bottom;
+	font-size:0;
+}
+
+.center {
+  text-align: center;
+  color:black;
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+.profileBox {
+	margin-top:-26px;
+	color: black;
+	background-color: pink;
+	padding: 10px
+}
+
+.pinkBox {
+	color: black;
+	background-color: pink;
+	position:relative;
+	width:100%;
+}
+
+.center2 {
+	background-color:grey;
+	width:100%;
+  }
+
+.center3 {
+  text-align: center;
+  color:black;
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  width:275px;
+}
+
+.absolute {
+  position: relative;
+  width: 100%;
+  background-color:pink;
+  height:80px;
+  margin-top: -26px;
+}
+
+img.Image1{
+    width:100%;
+    max-width:300px;
+	max-height:300px
+}
+img.Image2{
+   width:100%;
+    max-width:300px;
+	max-height:300px
+}
+
+img.Image3{
+    width:100%;
+    max-width:300px;
+	max-height:300px
+}
+
+img.Image4{
+   width:100%;
+    max-width:300px;
+	max-height:300px;
+}
+
+.socialMediaTable td {
+	border-style: none;
+}
+
+.socialMediaTable td:hover {
+	background-color:lightgrey;
+}
+
+.topnav {
+  background-color: pink;
+  overflow: hidden;
+  position:relative;
+}
+
+.topnav div:hover {
+  background-color: lightgrey;
+  color: pink;
+}
+
+.contactBox {
+	color: black;
+	background-color: pink;
+	padding: 10px
+
+}
