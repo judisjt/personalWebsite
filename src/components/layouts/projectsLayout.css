@@ -8,6 +8,12 @@
 	border: 1px solid black;
 }
 
+.descTableRow2 td {
+	width:450px;
+	padding:10px;
+	border: 1px solid black;
+}
+
 .container {
 	background-color:pink;
 	height:100%;
@@ -24,4 +30,30 @@ td {
 
 .projectLinks a:hover {
 	color:green;
+}
+
+.projectsTable {
+  margin-left: auto;
+  margin-right: auto;
+  width:95%;
+  height:700px;
+}
+
+.projectsTable2 {
+	display:none;
+}
+
+@media screen and (max-width: 630px) {
+	.projectsTable {
+	display:none;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.projectsTable2 {
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		width:95%;
+	}
 }

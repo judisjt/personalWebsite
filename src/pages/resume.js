@@ -4,6 +4,8 @@ import downloadFile from '../components/files/Judis_Resume.pdf'
 import { Link } from "gatsby";
 import  styled  from "styled-components"
 import "../components/layouts/resumeLayout.css"
+import { Helmet } from 'react-helmet'
+
 
 
 const StyledLink = styled.div`
@@ -20,6 +22,9 @@ const StyledLink = styled.div`
 export default function Resume() {
   return (
 	<div class="container">
+	  <Helmet>
+	  <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0"/>
+    </Helmet>
 	  <div class="topnav">
 		<StyledLink> <Link to="/">Home</Link></StyledLink>
 		<StyledLink> <Link to="/resume/">Resume</Link></StyledLink>

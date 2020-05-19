@@ -47,7 +47,9 @@ margin-bottom:20px;
 
 @media screen and (max-width: 560px) {
 	.skillsTable2 {
-	display:block;
-	
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		width:95%;
 	}
 }
