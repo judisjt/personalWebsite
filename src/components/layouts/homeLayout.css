@@ -9,7 +9,27 @@
   background-color: pink;
   border-radius: 25px;
   padding: 20px;
-  font-size: 40px
+  font-size: 40px;
+}
+
+.top-left2 {
+	display:none;
+}
+
+@media screen and (max-width: 490px) {
+	.top-left2 {
+		display:block;
+		position:relative;
+		color: black;
+		padding: 10px;
+		font-size: 25px
+	}
+}
+
+@media screen and (max-width: 490px) {
+	.top-left {
+		display:none;
+	}
 }
 
 img {

@@ -25,11 +25,12 @@ export default function Home() {
 		<StyledLink> <Link to="/projects/">Projects</Link></StyledLink>
 	</div>
 	<div>
+	<div class="top-left2 ">Jason Judis <br /> <br /> Software Developer </div>
 		<picture>
 			<source srcset="../../linkedInProfile.png" media="(max-width: 600px)"/>
 			<img src="../../rightPic.jpg" alt="rightPicture"/>
 		</picture>
-		   <div class="top-left">Jason Judis <br /> <br /> Software Developer </div>
+		<div class="top-left">Jason Judis <br /> <br /> Software Developer </div>
 	</div>
 	<div class='profileBox'>
 		<div>
